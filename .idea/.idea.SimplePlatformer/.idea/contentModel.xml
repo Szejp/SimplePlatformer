@@ -28,10 +28,33 @@
                 <e p="CommandManager.cs" t="Include" />
                 <e p="ICommand.cs" t="Include" />
               </e>
-              <e p="OnPlayerDiedCommand.cs" t="Include" />
+              <e p="GameCommands" t="Include">
+                <e p="OnFinishGameCommand.cs" t="Include" />
+                <e p="OnPlayerDiedCommand.cs" t="Include" />
+                <e p="OnRestartGameCommand.cs" t="Include" />
+                <e p="RespawnPlayerCommand.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Configs" t="Include">
+              <e p="GameConfig.cs" t="Include" />
+            </e>
+            <e p="Data" t="Include">
+              <e p="GameData.cs" t="Include" />
+              <e p="GameSettings.cs" t="Include" />
+              <e p="PlayerData.cs" t="Include" />
             </e>
             <e p="DefaultEntityInitializer.cs" t="Include" />
-            <e p="GameContext.cs" t="Include" />
+            <e p="Game.cs" t="Include" />
+            <e p="UserInterface" t="Include">
+              <e p="GameHUD.cs" t="Include" />
+              <e p="GameobjectView.cs" t="Include" />
+              <e p="Panels" t="Include">
+                <e p="GameOverPanel.cs" t="Include" />
+                <e p="PanelBase.cs" t="Include" />
+              </e>
+              <e p="UI.cs" t="Include" />
+              <e p="View.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Standard Assets" t="Include">
@@ -61,6 +84,31 @@
               <e p="TouchPad.cs" t="Include" />
               <e p="VirtualInput.cs" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
       </e>

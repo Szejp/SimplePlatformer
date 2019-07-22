@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ebbba1c7a714f2e9b4b2989f728cfbb, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  settings:
+    gameMinPosition: -6
+    playerLivesCount: 3
+    playerStartingPosition: {x: -6, y: 0, z: 0}

@@ -2,7 +2,8 @@
 using Game.Scripts.Agents.Configs;
 using UnityEngine;
 
-namespace Game.Scripts {
+namespace Game.Scripts
+{
     [RequireComponent(typeof(Entity))]
     public class DefaultEntityInitializer : MonoBehaviour
     {
@@ -11,8 +12,9 @@ namespace Game.Scripts {
         void Awake()
         {
             var entity = GetComponent<Entity>();
-            entity.SetCollisionManager(GameContext.CollisionManager);
-        
+            entity.SetCollisionManager(Game.CollisionManager);
+            entity.SetGameData(Game.Data);
+
             if (config != null)
                 entity.SetConfig(config);
         }

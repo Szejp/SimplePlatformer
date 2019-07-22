@@ -2,7 +2,7 @@ namespace Game.Scripts.Agents
 {
     public class Obstacle : Entity
     {
-        public override void Kill()
+        protected override void OnKilled()
         {
             throw new System.NotImplementedException();
         }
